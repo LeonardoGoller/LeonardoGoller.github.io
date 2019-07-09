@@ -1,0 +1,153 @@
+---
+---
+
+$black: #141115;
+$white: #f7f7f7;
+$grey: #69676a;
+$red: #f71735;
+$peach: #f93943;
+
+$base-font-size: 1.6rem;
+$small-font-size: .9 * $base-font-size;
+$large-font-size: 1.2 * $base-font-size;
+
+
+
+@mixin flexalign($main, $cross) {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-align-items: $cross;
+  align-items: $cross;
+
+  -webkit-justify-content: $main;
+  justify-content: $main;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background: $white;
+  color: $black;
+  font-size: $base-font-size;
+  line-height: 1.6;
+  margin: 4rem auto;
+  max-width: 72rem;
+  padding: 0 1.8rem;
+
+  & > * {
+    margin-bottom: 3.6rem;
+  }
+}
+
+header {
+  h1 {
+    font-size: $large-font-size;
+    font-weight: normal;
+  }
+
+  nav {
+    ul {
+      text-align: right;
+      list-style: none;
+
+      li {
+        display: inline-block;
+        padding-left: 1rem;
+      }
+
+    }
+  }
+}
+
+article {
+  display: flex;
+  margin-bottom: 1.6rem;
+
+  .date {
+    color: $grey;
+    display: flex;
+    flex: 1;
+    font-size: $small-font-size;
+    font-style: italic;
+    padding-right: 1.6rem;
+    text-align: right;
+
+    @include flexalign(right, flex-start);
+  }
+
+  .detail {
+    flex: 3;
+
+    h2 {
+      display: inline;
+      font-size: $base-font-size;
+      font-style: italic;
+      font-weight: normal;
+
+      &::after {
+        content: " — ";
+      }
+    }
+
+    p {
+      display: inline;
+    }
+  }
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+
+  &:link {
+    color: $red;
+  }
+
+  &:visited {
+    color: $peach;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: $peach;
+  }
+
+  &:hover,
+  &:active {
+    border-bottom: .1rem solid;
+    text-decoration: none;
+  }
+}
+
+footer {
+  color: $grey;
+  text-align: right;
+
+  a {
+    text-decoration: underline;
+
+    &:link,
+    &:visited {
+      color: $grey;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      text-decoration: none;
+      border-bottom: unset;
+    }
+  }
+}
