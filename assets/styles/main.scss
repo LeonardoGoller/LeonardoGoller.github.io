@@ -1,18 +1,25 @@
 ---
 ---
 
+/* Colors! */
 $black: #141115;
 $white: #f7f7f7;
+$offwhite: #e1e1e1;
 $grey: #69676a;
 $red: #f71735;
 $peach: #f93943;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans&display=swap');
 
 $base-font-size: 1.6rem;
 $small-font-size: .9 * $base-font-size;
 $large-font-size: 1.2 * $base-font-size;
 
+$sans: 'Fira Sans', sans-serif;
+$mono: 'Fira Mono', monospace;
 
-
+/* Mixins */
 @mixin flexalign($main, $cross) {
   display: -webkit-flex;
   display: flex;
@@ -24,6 +31,7 @@ $large-font-size: 1.2 * $base-font-size;
   justify-content: $main;
 }
 
+/* Sass starts here! */
 *,
 *::before,
 *::after {
@@ -33,13 +41,11 @@ $large-font-size: 1.2 * $base-font-size;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: $sans;
   font-size: 10px;
 }
 
 body {
-  background: $white;
-  color: $black;
   font-size: $base-font-size;
   line-height: 1.6;
   margin: 4rem auto;
@@ -48,6 +54,67 @@ body {
 
   & > * {
     margin-bottom: 3.6rem;
+  }
+
+}
+
+h2.post-head {
+  margin: unset;
+}
+
+img,
+video {
+  float: right;
+  margin-left: 1.6rem;
+  width: 24%;
+
+  &:only-child {
+    float: unset;
+    margin-left: unset;
+    width: 90%;
+  }
+}
+
+p {
+  &.post-date {
+    color: $grey;
+    font-style: italic;
+    text-align: right;
+  }
+
+  .image {
+   text-align: center;
+  }
+}
+
+code {
+  background: $offwhite;
+  border-radius: .4rem;
+  display: inline-block;
+  font-family: $mono;
+  font-size: $small-font-size;
+  padding: .2rem;
+
+  pre > & {
+    display: block;
+    padding: .4rem 1.4rem;
+  }
+}
+
+
+blockquote {
+  border-left: 0.5rem solid $offwhite;
+  color: $grey;
+  padding: .6rem 0 .6rem 1.8rem;
+
+  cite {
+    border-left: unset;
+    display: block;
+    text-align: right;
+    
+    &::before {
+      content: " — ";
+    }
   }
 }
 
@@ -71,9 +138,19 @@ header {
   }
 }
 
+main {
+  & > * {
+    margin-bottom: 1.4rem;
+  }
+
+  ul,
+  ol {
+    margin-left: 3.6rem;
+  }
+}
+
 article {
   display: flex;
-  margin-bottom: 1.6rem;
 
   .date {
     color: $grey;
@@ -108,6 +185,7 @@ article {
 }
 
 a {
+  display: inline;
   outline: none;
   text-decoration: none;
 
