@@ -48,13 +48,12 @@ html {
 body {
   font-size: $base-font-size;
   line-height: 1.6;
-  margin: 4rem auto;
-  margin-bottom: 0;
-  max-width: 72rem;
-  padding: 0 1.8rem;
+  margin: 0 auto;
+  max-width: 75rem;
+  padding: 3rem 3rem 0;
 
   & > * {
-    margin-bottom: 3.6rem;
+    margin-bottom: 2.4rem;
   }
 
 }
@@ -139,7 +138,7 @@ header {
 
 main {
   & > * {
-    margin-bottom: 1.4rem;
+    margin-bottom: 2.4rem;
   }
 
   ul,
@@ -235,3 +234,24 @@ footer {
     }
   }
 }
+
+/* begin: make footer stick to the bottom */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+/* end: make footer stick to the bottom */
+
