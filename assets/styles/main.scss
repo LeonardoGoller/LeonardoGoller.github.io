@@ -49,6 +49,7 @@ body {
   font-size: $base-font-size;
   line-height: 1.6;
   margin: 4rem auto;
+  margin-bottom: 0;
   max-width: 72rem;
   padding: 0 1.8rem;
 
@@ -71,7 +72,7 @@ video {
   &:only-child {
     float: unset;
     margin-left: unset;
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -81,22 +82,20 @@ p {
     font-style: italic;
     text-align: right;
   }
-
-  .image {
-   text-align: center;
-  }
 }
 
 code {
-  background: $offwhite;
+  border: 0.1px solid $offwhite;
   border-radius: .4rem;
+  box-shadow: 0 0 .1rem $grey;
   display: inline-block;
   font-family: $mono;
   font-size: $small-font-size;
-  padding: .2rem;
+  padding: 0;
 
   pre > & {
     display: block;
+    overflow-y: scroll;
     padding: .4rem 1.4rem;
   }
 }
