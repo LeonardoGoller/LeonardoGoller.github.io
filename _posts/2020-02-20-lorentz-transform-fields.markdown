@@ -1,25 +1,29 @@
 ---
 layout: post
-title:  "Electromagnetic Fields Under Arbitrary Lorentz Transformations"
+title:  "Electromagnetic Fields and Arbitrary Lorentz Transformations"
 date:   2020-02-20 17:00:00 +0530
-categories: [math, nature, physics]
+categories: [nature, physics]
 excerpt: This post goes over the algebra involved in deriving the expressions of electric and magnetic fields under the most general Lorentz transformation. I could not find this anywhere else on the internet.
 ---
 
-This post goes over the algebra involved in deriving the expressions of
-electric and magnetic fields for an arbitrary (proper) Lorentz transformation,
+This post goes over the algebra involved in deriving the expressions for how
+electric and magnetic fields change under an arbitrary (proper) Lorentz
+transformation.
 
 $$
 \begin{align}
   \vec{E'} = \gamma \left(\vec{E} + \vec{\beta} \times \vec{B}\right)
     - \frac{\gamma^2}{\gamma + 1} 
-        \vec{\beta} \left(\vec{\beta} \cdot \vec{E}\right), \\
+        \vec{\beta} \left(\vec{\beta} \cdot \vec{E}\right) \\
 
   \vec{B'} = \gamma \left(\vec{B} - \vec{\beta} \times \vec{E}\right)
     - \frac{\gamma^2}{\gamma + 1} 
-        \vec{\beta} \left(\vec{\beta} \cdot \vec{B}\right).
+        \vec{\beta} \left(\vec{\beta} \cdot \vec{B}\right)
 \end{align}
 $$
+
+>In this post, I am using the 'particle physics' metric signature 
+>$$(+, -, -, -)$$ and taking the speed of light, $$c = 1$$.
 
 Our starting point is going to be the fact that the 
 [electromagnetic field tensor](https://en.wikipedia.org/wiki/Electromagnetic_tensor), 
