@@ -12,11 +12,11 @@ transformation.
 
 $$
 \begin{align}
-  \vec{E'} = \gamma \left(\vec{E} + \vec{\beta} \times \vec{B}\right)
+  \vec{E'} = \gamma \left(\vec{E} - \vec{\beta} \times \vec{B}\right)
     - \frac{\gamma^2}{\gamma + 1} 
         \vec{\beta} \left(\vec{\beta} \cdot \vec{E}\right) \\
 
-  \vec{B'} = \gamma \left(\vec{B} - \vec{\beta} \times \vec{E}\right)
+  \vec{B'} = \gamma \left(\vec{B} + \vec{\beta} \times \vec{E}\right)
     - \frac{\gamma^2}{\gamma + 1} 
         \vec{\beta} \left(\vec{\beta} \cdot \vec{B}\right)
 \end{align}
@@ -113,8 +113,7 @@ $$
     & = \gamma \epsilon^{imk}\beta_k B_m - \gamma(\gamma - 1)
           \frac{\beta_i}{\beta^2} 
              \left(\epsilon^{mkl} B_m \beta_k \beta_l\right) \\
-    & = \gamma \epsilon^{imk}\beta_m B_k \\
-    & = \gamma (\vec{\beta} \times \vec{B})_i
+    & = -\gamma (\vec{\beta} \times \vec{B})_i
 \end{align}
 $$
 
@@ -125,7 +124,7 @@ antisymmetry of the Levi-Civita tensor.
 Finally, we put everything together to yield,
 
 $$
-E'_i = \gamma \left(E_i + (\vec{\beta} \times \vec{B})_i \right)
+E'_i = \gamma \left(E_i - (\vec{\beta} \times \vec{B})_i \right)
           - \frac{\gamma^2}{\gamma + 1} 
               \beta_i \left(\vec{\beta} \cdot \vec{E}\right),
 $$
@@ -133,7 +132,7 @@ $$
 or in vector notation,
 
 $$
-  \vec{E'} = \gamma \left(\vec{E} + \vec{\beta} \times \vec{B}\right)
+  \vec{E'} = \gamma \left(\vec{E} - \vec{\beta} \times \vec{B}\right)
     - \frac{\gamma^2}{\gamma + 1} 
         \vec{\beta} \left(\vec{\beta} \cdot \vec{E}\right).
 $$
@@ -232,7 +231,7 @@ Levi-Civita tensor: $$ \epsilon_{ijk} \epsilon^{imn} = \delta_j^m \delta_k^n -
 Putting everything together leads to
 
 $$
-B'_i = \gamma \left(B_i - (\vec{\beta} \times \vec{E})_i \right)
+B'_i = \gamma \left(B_i + (\vec{\beta} \times \vec{E})_i \right)
           - \frac{\gamma^2}{\gamma + 1} 
               \beta_i \left(\vec{\beta} \cdot \vec{B}\right),
 $$
@@ -240,7 +239,7 @@ $$
 and
 
 $$
-  \vec{B'} = \gamma \left(\vec{B} - \vec{\beta} \times \vec{E}\right)
+  \vec{B'} = \gamma \left(\vec{B} + \vec{\beta} \times \vec{E}\right)
     - \frac{\gamma^2}{\gamma + 1} 
         \vec{\beta} \left(\vec{\beta} \cdot \vec{B}\right),
 $$
