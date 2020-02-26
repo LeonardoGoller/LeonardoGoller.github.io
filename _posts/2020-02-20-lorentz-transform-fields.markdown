@@ -2,7 +2,7 @@
 layout: post
 title:  "Electromagnetic Fields and Arbitrary Lorentz Transformations"
 date:   2020-02-20 17:00:00 +0530
-categories: [nature, physics]
+tags: [nature, physics]
 excerpt: This post goes over the algebra involved in deriving the expressions of electric and magnetic fields under the most general Lorentz transformation. I could not find this anywhere else on the internet.
 ---
 
