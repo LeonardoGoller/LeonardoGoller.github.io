@@ -30,12 +30,14 @@ For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 * In the summer of 2019 I did reading project on _Lie groups and Lie algebras_
   under Dr. Sanjoy Pusti at IIT Bombay.
 
+
 ### Books
 
 The books I am currently reading:
 
-* _India After Gandhi_ by Ramchandra Guha
-* _Frankenstein; or, the Modern Prometheus_ by Mary Shelley
+{% for book in site.currentbooks %}
+* _{{ book.title }}_ by {{ book.author }}
+{% endfor %}
 
 I also have a list of [books I have read this year](/books). I am going to
 try to keep these lists updated.
