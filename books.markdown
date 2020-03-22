@@ -5,9 +5,9 @@ layout: default
 
 ## Books
 
-As a blog that is partly dedicated to books, it is no surprise that I have set
-up a page to track the books I read. Books listed here are fiction, and
-non-academic non-fiction; academic books are not tracked.
+As this is a blog partly dedicated to books, I have set this page up to track
+the books I read. Books listed here are fiction, and non-academic non-fiction;
+academic books are not tracked.
 
 Books I especially liked are marked with an asterisk  `*`.
 
@@ -19,3 +19,4 @@ Books I especially liked are marked with an asterisk  `*`.
 ### Books I have read this year
 1. _There There_ by Tommy Orange
 2. _Frankenstein; or, the Modern Prometheus_ by Mary Shelley
+3. _The Godfather_ by Mario Puzo `*`
