@@ -67,11 +67,24 @@ video {
   float: right;
   margin-left: 1.6rem;
   width: 24%;
+}
 
-  &:only-child {
+figure {
+  img,
+  video {
+    display: block;
     float: unset;
-    margin-left: unset;
-    width: 100%;
+    margin: auto;
+    width: 45%;
+  }
+
+  figcaption {
+    font-size: $small-font-size;
+    text-align: center;
+
+    &::before {
+      content: "Figure: ";
+    }
   }
 }
 
