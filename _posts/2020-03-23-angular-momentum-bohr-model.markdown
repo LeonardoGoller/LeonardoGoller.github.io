@@ -13,12 +13,20 @@ of hydrogen has always felt like a very _ad hoc_ assumption. To think that
 with the correct quantization condition $$L_z = n \hbar$$, (which happens to be
 identical to what is obtained from a quantum mechanical treatment) is absurd.
 
+Elementary texts explain the quantization rule by appealing to the
+constructive interference of electron waves (_the only orbits permitted
+are the ones whose circumference is an integral multiple of the [de Broglie
+wavelength](https://en.wikipedia.org/wiki/Matter_wave) of the electron_). 
+However, we note that [de
+Broglie](https://en.wikipedia.org/wiki/Louis_de_Broglie) formulated his
+hypothesis more than a decade _after_ the Bohr model was proposed.
+
 In this post, I want to start with the information available to Bohr at the
 time (evidence for quantized energy levels from atomic spectra and the
 empirical [Rydberg formula](https://en.wikipedia.org/wiki/Rydberg_formula)) and
 get to the magical quantization rule with the 
 [_correspondence principle_](https://en.wikipedia.org/wiki/Correspondence_principle) 
-(as Bohr did).
+(as Bohr did). 
 
 The following section will start with Bohr's original postulates and establish
 some notation, I will discuss the origin of the quantization in the next
@@ -220,4 +228,7 @@ $$
 ----
 
 This blog post was inspired by Burkhardt and Leventhal's treatment of the
-problem in [_Topics in Atomic Physics_](https://www.springer.com/gp/book/9780387257488). Also refer to [_On the Quantum Theory of Line Spectra_](https://www.gutenberg.org/ebooks/47167) by Niels Bohr.
+problem in [_Topics in Atomic
+Physics_](https://www.springer.com/gp/book/9780387257488). The primary source,
+of course, is Bohr's seminal article titled [_On the Quantum Theory of Line
+Spectra_](https://www.gutenberg.org/ebooks/47167).
