@@ -2,34 +2,13 @@
 ---
 
 /* Colors! */
-$black: #141115;
-$white: #f7f7f7;
-$offwhite: #e1e1e1;
-$grey: #69676a;
-$red: #f71735;
-$peach: #f93943;
+@import 'colors.scss';
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans&display=swap');
-
-$base-font-size: 1.6rem;
-$small-font-size: .9 * $base-font-size;
-$large-font-size: 1.2 * $base-font-size;
-
-$sans: 'Fira Sans', sans-serif;
-$mono: 'Fira Mono', monospace;
+@import 'fonts.scss';
 
 /* Mixins */
-@mixin flexalign($main, $cross) {
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-align-items: $cross;
-  align-items: $cross;
-
-  -webkit-justify-content: $main;
-  justify-content: $main;
-}
+@import 'mixins.scss';
 
 /* Sass starts here! */
 *,
@@ -270,3 +249,6 @@ footer {
 }
 /* end: make footer stick to the bottom */
 
+.mjx-chtml {
+  font-size: 110% !important;
+}
