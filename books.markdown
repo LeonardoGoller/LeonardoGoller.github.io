@@ -24,3 +24,4 @@ Books I especially liked are marked with an asterisk  `*`.
 1. _There There_ by Tommy Orange
 2. _Frankenstein; or, the Modern Prometheus_ by Mary Shelley
 3. _The Godfather_ by Mario Puzo `*`
+4. _The Haunting of Hill House_ by Shirley Jackson
