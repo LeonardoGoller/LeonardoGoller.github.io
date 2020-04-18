@@ -25,3 +25,4 @@ Books I especially liked are marked with an asterisk  `*`.
 2. _Frankenstein; or, the Modern Prometheus_ by Mary Shelley
 3. _The Godfather_ by Mario Puzo `*`
 4. _The Haunting of Hill House_ by Shirley Jackson
+5. _The Man in the High Castle_ by Philip K. Dick `*`
