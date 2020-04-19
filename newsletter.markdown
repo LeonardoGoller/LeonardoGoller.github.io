@@ -9,17 +9,18 @@ Subscribe to the newsletter to receive new posts (and absolutely nothing else)
 directly in your inbox.  You may also use a feed reader to subscribe to the
 [Atom feed](/feed.xml), if you prefer not giving out your email.
 
-<iframe name="hidden_iframe" id="hidden_iframe"></iframe>
-<form id="newsletter" 
-      action="https://docs.google.com/forms/d/e/1FAIpQLScWegDMIhenyxzDyZHZ_K_JcGUBWiPCnCdtrfEmu1NSB4zuqg/formResponse" 
+<form id="newsletter"
+      onsubmit="onSubscribe(3000)"
+      target="response"
       method="POST"
-      target="hidden_iframe"
-      onsubmit="onNewsletterSubmit()">
-  <input type="email" name="entry.241314092" placeholder="Enter your email">
+      action="https://script.google.com/macros/s/AKfycbz4lfp-CLgsoOdRyYUTn3gi7F7aa8XPUQEKS2rorPMHJGZxTmc/exec">
+  <input type="email" name="email" placeholder="Enter your email">
   <button id="subscribe" type="submit">Subscribe</button>
 </form>
 
-<p id="success"><em>Subscription to newsletter successful. You will be
-redirected to the homepage now.</em></p>
+<iframe id="response" name="response"></iframe>
 
-<script src="/assets/scripts/success.js"></script>
+<p id="success"><em>Subscription to the newsletter was successful. You will be
+redirected to the homepage in 3s.</em></p>
+
+<script src="/assets/scripts/subscribe.js"></script>

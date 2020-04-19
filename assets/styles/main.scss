@@ -271,7 +271,7 @@ footer {
   }
   
   input {
-    border: 1px solid $grey;
+    border: 1px solid #ccc; /*Aah! Magic constant! AAAAAARGHH! */
     padding: 1rem;
     max-width: 24rem;
     min-width: 10rem;
@@ -297,6 +297,6 @@ footer {
 }
 
 p#success,
-#hidden_iframe {
+iframe#response {
   display: none;
 }
