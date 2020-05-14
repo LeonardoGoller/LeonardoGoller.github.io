@@ -33,7 +33,7 @@ some notation, I will discuss the origin of the quantization in the next
 section.
 
 
-### Bohr's Postulates
+## Bohr's Postulates
 
 We start with Bohr's assumptions in his own words:
 
@@ -142,7 +142,7 @@ rule, $$L_z = m_e v_n (a_0 n^2) = n \hbar$$ as a _third postulate_ to
 derive an expression for $$a_0$$.  In this post however, we will use the
 correspondence principle to derive and expression for $$a_0$$ and consequently the quantization rule.
 
-### Origin of Angular Momentum Quantization
+## Origin of Angular Momentum Quantization
 
 First, we note that the kinetic energy of the electron is quantized
 

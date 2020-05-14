@@ -66,7 +66,7 @@ $$\epsilon_{ijk} \epsilon^{ljk} = 2 \delta_i^l$$ is used invert the relation in
 the second line. We also note that $$\epsilon_{ijk} = \epsilon^{ijk}$$ because
 for space components the (Cartesian) metric is simply the identity.
 
-### Transformation of the Electric Field
+## Transformation of the Electric Field
 
 For electric field, the transformation law for $$F_{0 i}$$ components is used,
 
@@ -137,7 +137,7 @@ $$
         \vec{\beta} \left(\vec{\beta} \cdot \vec{E}\right).
 $$
 
-### Transformation of the Magnetic Field
+## Transformation of the Magnetic Field
 
 In order to derive the transformation law for magnetic fields, a similar
 procedure is employed. We begin by noting that,

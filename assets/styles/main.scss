@@ -4,11 +4,18 @@
 /* Colors! */
 @import 'colors.scss';
 
+/* Mixins */
+@import 'mixins.scss';
+
 /* Fonts */
 @import 'fonts.scss';
 
-/* Mixins */
-@import 'mixins.scss';
+$base-font-size: 1.8rem;
+$small-font-size: .9 * $base-font-size;
+$large-font-size: 1.2 * $base-font-size;
+
+$serif: 'Charter', serif;
+$mono: 'Fira Mono', monospace;
 
 /* Sass starts here! */
 *,
@@ -20,7 +27,7 @@
 }
 
 html {
-  font-family: $sans;
+  font-family: $serif;
   font-size: 10px;
 }
 
@@ -36,6 +43,29 @@ body {
     margin-bottom: 2.4rem;
   }
 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.6 * $base-font-size;
+}
+
+h2 {
+  font-size: 1.4 * $base-font-size;
+}
+
+h3 {
+  font-size: 1.2 * $base-font-size;
 }
 
 img,
@@ -67,7 +97,6 @@ figure {
 p {
   &.post-date {
     color: $grey;
-    font-style: italic;
   }
 }
 
@@ -105,11 +134,6 @@ blockquote {
 }
 
 header {
-  h1 {
-    font-size: $large-font-size;
-    font-weight: normal;
-  }
-
   nav {
     ul {
       text-align: right;
@@ -246,7 +270,7 @@ footer {
 /* end: make footer stick to the bottom */
 
 .mjx-chtml {
-  font-size: 115% !important;
+  font-size: 108% !important;
 }
 
 /* Newsletter form styling */
