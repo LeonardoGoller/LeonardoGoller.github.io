@@ -38,10 +38,6 @@ body {
 
 }
 
-h2.post-head {
-  margin: unset;
-}
-
 img,
 video {
   float: right;
@@ -72,7 +68,6 @@ p {
   &.post-date {
     color: $grey;
     font-style: italic;
-    text-align: right;
   }
 }
 
@@ -251,7 +246,7 @@ footer {
 /* end: make footer stick to the bottom */
 
 .mjx-chtml {
-  font-size: 110% !important;
+  font-size: 115% !important;
 }
 
 /* Newsletter form styling */
