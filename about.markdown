@@ -52,8 +52,7 @@ managed by [Jekyll](https://jekyllrb.com/), and website is built and hosted by
 
 ## What is 11DE784A?
 
-It is the speed of light in hexadecimal. It's also my username on GitHub (and
-GitLab).
+It is the speed of light in hexadecimal.
 
 *[email]: ayush [dot] singh [at] niser [dot] ac [dot] in
 *[speed of light]: 299,792,458 m/s
