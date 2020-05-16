@@ -10,7 +10,9 @@
 /* Fonts */
 @import 'fonts.scss';
 
-$base-size: 1.8rem;
+$base-font-size: 1.8rem;
+$small-font-size: .9 * $base-font-size;
+$large-font-size: 1.2 * $base-font-size;
 
 $serif: 'Charter', serif;
 $mono: 'Fira Mono', monospace;
@@ -26,17 +28,16 @@ $mono: 'Fira Mono', monospace;
 
 html {
   font-family: $serif;
-  font-kerning: normal;
   font-size: 10px;
 }
 
 body {
   background: $white;
-  font-size: $base-size;
-  line-height: 1.5;
+  font-size: $base-font-size;
+  line-height: 1.6;
   margin: 0 auto;
   max-width: 75rem;
-  padding: 3rem 1.8rem 0;
+  padding: 3rem 3rem 0;
 
   & > * {
     margin-bottom: 2.4rem;
@@ -56,15 +57,15 @@ h6 {
 }
 
 h1 {
-  font-size: 1.6 * $base-size;
+  font-size: 1.6 * $base-font-size;
 }
 
 h2 {
-  font-size: 1.4 * $base-size;
+  font-size: 1.4 * $base-font-size;
 }
 
 h3 {
-  font-size: 1.2 * $base-size;
+  font-size: 1.2 * $base-font-size;
 }
 
 img,
@@ -84,7 +85,7 @@ figure {
   }
 
   figcaption {
-    font-size: .9 * $base-size;
+    font-size: $small-font-size;
     text-align: center;
 
     &::before {
@@ -105,12 +106,12 @@ code {
   box-shadow: 0 0 .1rem $grey;
   display: inline-block;
   font-family: $mono;
-  font-size: .8 * $base-size;
-  padding: 0 .3rem;
+  font-size: $small-font-size;
+  padding: 0;
 
   pre > & {
     display: block;
-    overflow: auto;
+    overflow-y: scroll;
     padding: .4rem 1.4rem;
   }
 }
@@ -172,7 +173,7 @@ article {
     color: $grey;
     display: flex;
     flex: 1;
-    font-size: .9 * $base-size;
+    font-size: $small-font-size;
     font-style: italic;
     padding-right: 1.6rem;
     text-align: right;
@@ -185,7 +186,7 @@ article {
 
     h2 {
       display: inline;
-      font-size: $base-size;
+      font-size: $base-font-size;
       font-style: italic;
       font-weight: normal;
 
