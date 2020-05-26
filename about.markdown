@@ -7,7 +7,7 @@ layout: default
 
 My name is Ayush Singh and I am currently a physics major in the
 integrated master's programme at [National Institute of Science Education and Research](https://www.niser.ac.in/), Bhubaneswar, India.  I like
-abstract math, its applications to physics, and I write [code](https://github.com/11DE784A/) in my free time.
+abstract math, its applications to physics, and I write [code](https://github.com/{{ site.github_username }}/) in my free time.
 
 I can be contacted via email, but may not
 reply instantly. If you want to send me a GPG encrypted email, find my [public
@@ -54,5 +54,5 @@ managed by [Jekyll](https://jekyllrb.com/), and website is built and hosted by
 
 It is the speed of light in hexadecimal.
 
-*[email]: ayush [dot] singh [at] niser [dot] ac [dot] in
+*[email]: {{ site.obf_email }}
 *[speed of light]: 299,792,458 m/s
