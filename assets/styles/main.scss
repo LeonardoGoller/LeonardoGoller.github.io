@@ -13,7 +13,7 @@
 $base-size: 1.8rem;
 
 $serif: 'Charter', serif;
-$mono: 'Fira Mono', monospace;
+$mono: monospace;
 
 /* Sass starts here! */
 *,
@@ -133,6 +133,10 @@ blockquote {
 }
 
 header {
+  & > p {
+    margin-bottom: 1.2rem;
+  }
+
   nav {
     ul {
       text-align: right;
