@@ -5,7 +5,7 @@ layout: default
 
 # Books
 
-As this is a blog partly dedicated to books, I have set this page up to track
+I have set this page up to track
 the books I read. Books listed here are fiction, and non-academic non-fiction;
 academic books are not tracked.
 
@@ -27,3 +27,4 @@ Books I especially liked are marked with an asterisk  `*`.
 4. _The Haunting of Hill House_ by Shirley Jackson
 5. _The Man in the High Castle_ by Philip K. Dick `*`
 6. _Recursion_ by Blake Crouch
+7. _A Scanner Darkly_ by Philip K. Dick

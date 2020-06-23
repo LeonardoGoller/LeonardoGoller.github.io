@@ -31,11 +31,11 @@ license:
 
 # Books I am currently reading
 currentbooks:
-  - title: A Scanner Darkly
-    author: Philip K. Dick
+  - title: Free Culture
+    author: Lawrence Lessig
 
-  - title: India After Gandhi
-    author: Ramchandra Guha
+  - title: Brave New World
+    author: Aldous Huxley
 
         
 # Build settings
