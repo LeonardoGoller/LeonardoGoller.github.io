@@ -10,7 +10,7 @@
 /* Fonts */
 @import 'fonts.scss';
 
-$base-size: 1.8rem;
+$base-size: 1.7rem;
 
 $serif: 'Charter', serif;
 $mono: monospace;
@@ -35,7 +35,7 @@ body {
   font-size: $base-size;
   line-height: 1.5;
   margin: 0 auto;
-  max-width: 75rem;
+  max-width: 72rem;
   padding: 3rem 1.8rem 0;
 
   & > * {
