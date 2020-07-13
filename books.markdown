@@ -29,6 +29,7 @@ Books I especially liked are marked with an asterisk  `*`.
 6. _Recursion_ by Blake Crouch
 7. _A Scanner Darkly_ by Philip K. Dick
 8. _Brave New World_ by Aldous Huxley
-9. _Northern Lights_ by Philip Pullman `*`
-10. _The Subtle Knife_ by Philip Pullman `*`
+9. _Free Culture_ by Lawrence Lessig
+10. _Northern Lights_ by Philip Pullman `*`
+11. _The Subtle Knife_ by Philip Pullman `*`
 
