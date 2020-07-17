@@ -31,8 +31,11 @@ license:
 
 # Books I am currently reading
 currentbooks:
-  - title: The Amber Spyglass
-    author: Philip Pullman
+  - title: Genius: The Life and Science of Richard Feynman
+    author: James Gleick
+
+  - title: Dune
+    author: Frank Herbert
 
         
 # Build settings
