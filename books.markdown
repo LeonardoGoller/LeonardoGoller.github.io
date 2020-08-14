@@ -25,11 +25,12 @@ Books I especially liked are marked with an asterisk  `*`.
 2. _Frankenstein; or, the Modern Prometheus_ by Mary Shelley
 3. _The Godfather_ by Mario Puzo `*`
 4. _The Haunting of Hill House_ by Shirley Jackson
-5. _The Man in the High Castle_ by Philip K. Dick `*`
-6. _Recursion_ by Blake Crouch
+5. _The Man in the High Castle_ by Philip K. Dick
+6. _Recursion_ by Blake Crouch `*`
 7. _A Scanner Darkly_ by Philip K. Dick
 8. _Brave New World_ by Aldous Huxley
 9. _Free Culture_ by Lawrence Lessig
 10. _Northern Lights_ by Philip Pullman `*`
 11. _The Subtle Knife_ by Philip Pullman `*`
 12. _The Amber Spyglass_ by Philip Pullman `*`
+13. _Dune_ by Frank Herbert `*`
