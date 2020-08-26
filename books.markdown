@@ -34,3 +34,4 @@ Books I especially liked are marked with an asterisk  `*`.
 11. _The Subtle Knife_ by Philip Pullman `*`
 12. _The Amber Spyglass_ by Philip Pullman `*`
 13. _Dune_ by Frank Herbert `*`
+14. _Dark Places_ by Gillian Flynn
