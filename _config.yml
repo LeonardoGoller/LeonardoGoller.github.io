@@ -31,11 +31,11 @@ license:
 
 # Books I am currently reading
 currentbooks:
-  - title: "Genius: The Life and Science of Richard Feynman"
-    author: James Gleick
+  - title: "I'm Thinking of Ending Things"
+    author: Iain Reid
 
-  - title: Axiom's End
-    author: Lindsay Ellis
+  - title: The Adventures of Sherlock Holmes
+    author: Arthur Conan Doyle
 
         
 # Build settings

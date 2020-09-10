@@ -35,3 +35,5 @@ Books I especially liked are marked with an asterisk  `*`.
 12. _The Amber Spyglass_ by Philip Pullman `*`
 13. _Dune_ by Frank Herbert `*`
 14. _Dark Places_ by Gillian Flynn
+15. _Axiom's End_ by Lindsay Ellis
+16. _ISRO's Magnificent Women and Their Flying Machines_ by Mini Vaid
