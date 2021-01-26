@@ -31,11 +31,11 @@ license:
 
 # Books I am currently reading
 currentbooks:
-  - title: "I'm Thinking of Ending Things"
-    author: Iain Reid
+  - title: Deep Work
+    author: Cal Newport
 
-  - title: The Adventures of Sherlock Holmes
-    author: Arthur Conan Doyle
+  - title: The Lord of the Rings
+    author: J. R. R. Tolkien
 
         
 # Build settings
