@@ -33,19 +33,6 @@ For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
     Engines_](/assets/files/on_cyclic_quantum_heat_engines.pdf)
     was done under Dr. Colin Benjamin.
 
-
-## Books
-
-The books I am currently reading:
-
-{% for book in site.currentbooks %}
-* _{{ book.title }}_ by {{ book.author }}
-{% endfor %}
-
-I also have a list of [books I have read this year](/books). I am going to
-try to keep these lists updated.
-
-
 ## About this Website
 
 This website is written from the ground up with HTML and
