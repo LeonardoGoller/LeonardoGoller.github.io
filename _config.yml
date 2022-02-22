@@ -31,11 +31,8 @@ license:
 
 # Books I am currently reading
 currentbooks:
-  - title: Deep Work
-    author: Cal Newport
-
-  - title: The Lord of the Rings
-    author: J. R. R. Tolkien
+  - title: A Beautifully Foolish Endeavor
+    author: Hank Green
 
         
 # Build settings
