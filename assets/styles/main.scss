@@ -76,13 +76,23 @@ video {
   width: 24%;
 }
 
+.wide img,
+.wide video {
+  width: 90%;
+}
+
+.mid img,
+.mid video {
+  width: 45%;
+}
+
 figure {
   img,
   video {
     display: block;
     float: unset;
     margin: auto;
-    width: 45%;
+    padding: 1rem 0;
   }
 
   figcaption {
@@ -96,6 +106,7 @@ figure {
 }
 
 p {
+  hyphens: auto;
   &.post-date {
     color: $grey;
   }

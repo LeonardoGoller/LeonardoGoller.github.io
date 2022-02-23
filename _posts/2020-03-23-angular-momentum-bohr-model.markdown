@@ -60,7 +60,7 @@ A third assumption is the _corresponence principle_ which asserts that, as
 microscopic systems become macroscopic, the results must go over to the
 classical.
 
-{% include image.html url="/assets/images/bohr/orbits.png" 
+{% include image.html url="/assets/images/bohr/orbits.png" width="mid"
   description="A schematic of the Bohr model of the atom with the negatively
   charged electrons executing circular orbits around positively charged
   nuclei. Image license: CC BY-SA 3.0. Attribution: JabberWok." %}

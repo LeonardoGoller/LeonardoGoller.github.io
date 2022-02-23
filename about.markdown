@@ -30,8 +30,8 @@ For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 * In the summer of 2019 I did reading project on _Lie groups and Lie algebras_
   under Dr. Sanjoy Pusti at IIT Bombay.
 * My sixth semester project at NISER titled [_On Cyclic Quantum Heat
-    Engines_](/assets/files/on_cyclic_quantum_heat_engines.pdf)
-    was done under Dr. Colin Benjamin.
+  Engines_](/assets/files/on_cyclic_quantum_heat_engines.pdf) 
+  was done under Dr. Colin Benjamin.
 
 ## About this Website
 
