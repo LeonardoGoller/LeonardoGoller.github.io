@@ -19,19 +19,24 @@ For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 
 ## Selected Projects
 
-* I have been heading NISER Coding Club since March 2019.
-* Software projects for [NISER Software Development Group](https://sdgniser.github.io):
-  * [Timetable](https://github.com/sdgniser/timetable) -- a timetable generator
-  for people in NISER.
-  * [Spaghetti](https://github.com/sdgniser/spaghetti) -- a simple and
-  extensible platform for holding coding contests.
-  * [Lost and Found](https://github.com/sdgniser/lnf) -- a directory for things
-  lost and found on the NISER campus.
-* In the summer of 2019 I did reading project on _Lie groups and Lie algebras_
-  under Dr. Sanjoy Pusti at IIT Bombay.
+* I did my [master's thesis](/assets/files/thesis_ayush_singh.pdf) 
+  on scattering amplitudes and loop calculations in gauge theory under Dr.
+  Chethan N. Gowdigere.
 * My sixth semester project at NISER titled [_On Cyclic Quantum Heat
   Engines_](/assets/files/on_cyclic_quantum_heat_engines.pdf) 
   was done under Dr. Colin Benjamin.
+* In the summer of 2019 I did reading project on _Lie groups and Lie algebras_
+  under Dr. Sanjoy Pusti at IIT Bombay.
+* I headed the NISER Coding Club during March 2019--August 2021
+* Software projects for [NISER Software Development Group](https://sdgniser.github.io):
+  * [Timetable](https://github.com/sdgniser/timetable) --- a timetable generator
+  for people in NISER.
+  * [Spaghetti](https://github.com/sdgniser/spaghetti) --- a simple and
+  extensible platform for holding coding contests.
+  * [Lost and Found](https://github.com/sdgniser/lnf) --- a directory for things
+  lost and found in NISER.
+  * [Listings](https://github.com/sdgniser/listings) --- a place for selling
+  things you do not need.
 
 ## About this Website
 
