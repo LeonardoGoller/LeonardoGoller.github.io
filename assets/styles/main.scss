@@ -99,9 +99,6 @@ figure {
     font-size: .9 * $base-size;
     text-align: center;
 
-    &::before {
-      content: "Figure: ";
-    }
   }
 }
 
