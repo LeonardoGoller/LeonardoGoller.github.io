@@ -5,9 +5,14 @@ layout: default
 
 # About Me
 
-My name is Ayush Singh and I am a physics major in the
-integrated master's programme at [National Institute of Science Education and Research](https://www.niser.ac.in/), Bhubaneswar, India.  I like
-abstract math, its applications to physics, and I write [code](https://github.com/{{ site.github_username }}/) in my free time.
+My name is Ayush Singh and I am a PhD student in the
+[Geometry and Mathematical Physics group](https://www.math.sissa.it/content/geometry-and-mathematical-physics-0)
+of the [Mathematics Area](https://www.math.sissa.it/) at 
+[Scuola Internazionale Superiore di Studi Avanzati (SISSA)](https://www.sissa.it/), Trieste, Italy.
+I did my master's in physics from [National Institute of Science Education and
+Research](https://www.niser.ac.in/), Bhubaneswar, India.  I like abstract math,
+its applications to physics, and I write [code](https://github.com/{{
+site.github_username }}/) in my free time.
 
 I can be contacted via <abbr title="{{ site.obf_email }}">email</abbr>, but may not
 reply instantly. If you want to send me a GPG encrypted email, find my [public
