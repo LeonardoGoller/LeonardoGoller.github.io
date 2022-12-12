@@ -158,10 +158,11 @@ This was also Prof. Muruganandam's last course before his retirement from
 NISER, and it was very difficult seeing him trapped behind a screen and
 speaking into, what must have felt like, a void. As of right now, more than a
 year after the course's conclusion, I feel comfortable thinking of it
-as a positive experience largely because I am in a much more stable position
-professionally and personally (and also because I got a
-pretty good grade at the end). It's hard to care about beautiful
-mathematics when it feels like the world around you is crumbling.
+as a positive experience largely because I am in a much better position academically
+(and also because I got a pretty good grade at the end). 
+
+It's hard to care about beautiful mathematics when it feels like the world
+around you is crumbling.
 
 ---
 
