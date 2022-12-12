@@ -10,9 +10,9 @@
 /* Fonts */
 @import 'fonts.scss';
 
-$base-size: 1.8rem;
-
-$serif: 'Charter', serif;
+$base-size: 2.3rem;
+$serif: 'EB Garamond', serif;
+$smallcaps: 'EB Garamond SC';
 $mono: monospace;
 
 /* Sass starts here! */
@@ -34,9 +34,9 @@ body {
   background: $white;
   color: $black;
   font-size: $base-size;
-  line-height: 1.5;
+  line-height: 1.3;
   margin: 0 auto;
-  max-width: 70rem;
+  max-width: 75rem;
   padding: 3rem 1.8rem 0;
 
   & > * {
@@ -52,21 +52,22 @@ h4,
 h5,
 h6 {
   font-size: 100%;
-  font-style: italic;
-  font-weight: normal;
-  color: $pitch;
+  font-style: normal;
+  font-weight: bold;
+  color: $black;
 }
 
 h1 {
-  font-size: 1.5 * $base-size;
+  font-size: 1.4 * $base-size;
+  font-weight: normal;
 }
 
 h2 {
-  font-size: 1.3 * $base-size;
+  font-size: 1.1 * $base-size;
 }
 
 h3 {
-  font-size: 1.15 * $base-size;
+  font-size: 1.0 * $base-size;
 }
 
 img,
@@ -168,7 +169,7 @@ main {
 
   ul,
   ol {
-    margin-left: 3.6rem;
+    margin-left: $base-size;
   }
 
   hr {
@@ -180,32 +181,18 @@ main {
 }
 
 article {
-  display: flex;
-
   .date {
     color: $grey;
-    display: flex;
-    flex: 1;
-    font-size: .9 * $base-size;
-    font-style: italic;
-    padding-right: 1.6rem;
-    text-align: right;
-
-    @include flexalign(right, flex-start);
   }
 
   .detail {
-    flex: 3;
 
     h2 {
       display: inline;
       font-size: $base-size;
-      font-style: italic;
+      font-style: normal;
       font-weight: normal;
-
-      &::after {
-        content: " — ";
-      }
+      margin-right: 0.5rem;
     }
 
     p {
@@ -217,24 +204,37 @@ article {
 a {
   display: inline;
   outline: none;
-  text-decoration: underline;
-  text-decoration-skip-ink: auto;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 
-  &:link {
-    color: $pitch;
-  }
-
-  &:visited {
-    color: $pitch;
-  }
-
+  &:link,
+  &:visited,
   &:focus {
-    color: $pitch;
+    color: $black;
   }
 
   &:hover,
   &:active {
-    text-decoration: none;
+    background: $accentlight;
+  }
+
+  &::after {
+    content: "°";
+    color: $accent;
+    margin-left: 0.05 * $base-size;
+  }
+}
+
+nav a,
+.detail a {
+  &:link,
+  &:visited,
+  &:focus {
+    font-weight: bold;
+  }
+
+  &::after {
+    content: none;
   }
 }
 
@@ -243,18 +243,9 @@ footer {
   text-align: right;
 
   a {
-    text-decoration: underline;
-
     &:link,
     &:visited {
       color: $grey;
-    }
-
-    &:focus,
-    &:hover,
-    &:active {
-      text-decoration: none;
-      border-bottom: unset;
     }
   }
 }
@@ -282,7 +273,7 @@ footer {
 /* end: make footer stick to the bottom */
 
 .mjx-chtml {
-  font-size: 108% !important;
+  font-size: 95.5% !important;
 }
 
 /* Newsletter form styling */
@@ -310,20 +301,20 @@ footer {
     flex: auto;
   
     &:focus {
-      border: 1px solid $pitch;
+      border: 1px solid $accent;
     }
   }
   
   button {
     border-radius: 0;
-    background: $pitch;
+    background: $accent;
     color: white;
-    border: 1px solid $pitch;
+    border: 1px solid $accent;
     min-width: 10rem;
   
     &:hover {
       cursor: pointer;
-      background: $pitch;
+      background: $accent;
     }
   }
 }
