@@ -21,3 +21,4 @@ Books I especially liked are marked with an asterisk  `*`.
 2. _A Wizard of Earthsea_ by Ursula K. le Guin `*`
 3. _The Tombs of Atuan_ by Ursula K. le Guin `*`
 4. _A Beautifully Foolish Endeavour_ by Hank Green
+5. _Project Hail Mary_ by Andy Weir
