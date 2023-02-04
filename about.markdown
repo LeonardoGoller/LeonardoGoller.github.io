@@ -14,10 +14,9 @@ Research](https://www.niser.ac.in/), Bhubaneswar, India.  I like abstract math,
 its applications to physics, and I write [code](https://github.com/{{
 site.github_username }}/) in my free time.
 
-I can be contacted via <abbr title="{{ site.obf_email }}">email</abbr>, but may not
-reply instantly. If you want to send me a GPG encrypted email, find my [public
-key here](/assets/files/gpg_public.asc). To receive an encrypted response, send
-me your public key.
+If you want to send me a GPG encrypted email, find my [public key
+here](/assets/files/gpg_public.asc). To receive an encrypted response, send me
+your public key.
 
 For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 
