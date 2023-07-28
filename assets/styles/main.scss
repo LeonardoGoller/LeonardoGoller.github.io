@@ -11,7 +11,7 @@
 @import 'fonts.scss';
 
 $base-size: 2.3rem;
-$serif: 'EB Garamond', serif;
+$serif: 'EB Garamond', 'Sahitya', serif;
 $smallcaps: 'EB Garamond SC';
 $mono: monospace;
 
@@ -43,6 +43,11 @@ body {
     margin-bottom: 2.4rem;
   }
 
+}
+
+.hindi {
+  font-family: 'Sahitya', serif;
+  font-size: 110%;
 }
 
 h1,

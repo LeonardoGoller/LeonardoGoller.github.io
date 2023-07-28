@@ -5,7 +5,7 @@ layout: default
 
 # About Me
 
-My name is Ayush Singh and I am a PhD student in the
+My name is Ayush Singh (<span class="hindi">आयुष सिंह</span>) and I am a PhD student in the
 [Geometry and Mathematical Physics group](https://www.math.sissa.it/content/geometry-and-mathematical-physics-0)
 of the [Mathematics Area](https://www.math.sissa.it/) at 
 [Scuola Internazionale Superiore di Studi Avanzati (SISSA)](https://www.sissa.it/), Trieste, Italy.
