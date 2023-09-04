@@ -230,6 +230,19 @@ a {
   }
 }
 
+a.footnote,
+a.reversefootnote {
+  &:link,
+  &:visited,
+  &:focus {
+    color: $accent;
+  }
+
+  &::after {
+    content: unset;
+  }
+}
+
 nav a,
 .detail a {
   &:link,
@@ -240,9 +253,10 @@ nav a,
   }
 
   &::after {
-    content: none;
+    content: unset;
   }
 }
+
 
 footer {
   color: $grey;

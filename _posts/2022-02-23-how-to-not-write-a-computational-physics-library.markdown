@@ -73,9 +73,9 @@ Julia (even though the [documentation suggests that I
 should](https://docs.julialang.org/en/v1/manual/performance-tips/#Measure-performance-with-[@time](@ref)-and-pay-attention-to-memory-allocation)).
 
 In the end, there is no perfect language[^2]. And for an application as broad
-as numerical analysis, there can be no perfect tool for the job [^3].
+as numerical analysis, there can be no perfect tool for the job[^3].
 
-There is no single reason why I have decided to stick with C[^4].
+There is no single reason why I have decided to stick[^4] with C.
 As far as I can tell, there is no "killer feature". But putting together the
 learning experience C provides, the challenge of working with a very simple
 language, its privileged status among programmers, and (perhaps most
