@@ -5,12 +5,20 @@ layout: default
 
 # About Me
 
-My name is Ayush Singh (<span class="hindi">आयुष सिंह</span>) and I am a PhD student in the
-[Geometry and Mathematical Physics group](https://www.math.sissa.it/content/geometry-and-mathematical-physics-0)
-of the [Mathematics Area](https://www.math.sissa.it/) at 
-[Scuola Internazionale Superiore di Studi Avanzati (SISSA)](https://www.sissa.it/), Trieste, Italy.
-I did my master's in physics from [National Institute of Science Education and
-Research](https://www.niser.ac.in/), Bhubaneswar, India.  I like abstract math,
+My name is Ayush Singh (<span class="hindi">आयुष सिंह</span>), and I am a PhD student in
+[Geometry and Mathematical Physics](https://www.math.sissa.it/content/geometry-and-mathematical-physics-0)
+at [Scuola Internazionale Superiore di Studi Avanzati
+(SISSA)](https://www.sissa.it/). I work under the supervision of Pavel Putrov
+on aspects of Chern-Simons theory and certain quantum invariants of 3-manifolds.
+
+I have master's and bachelor's degrees in physics from [National Institute of Science Education and
+Research (NISER)](https://www.niser.ac.in/). At NISER, I did my [master's
+thesis](/assets/files/thesis_ayush_singh.pdf) on scattering amplitudes and loop
+calculations in gauge theory under the supervision of Chethan N. Gowdigere.
+And I did my [bachelor's thesis](/assets/files/on_cyclic_quantum_heat_engines.pdf) on
+cyclic quantum heat engines under the supervision of Colin Benjamin.
+
+I like abstract math,
 its applications to physics, and I write [code](https://github.com/{{
 site.github_username }}/) in my free time.
 
@@ -21,26 +29,17 @@ your public key.
 For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 
 
-## Selected Projects
+## Fun Stuff
 
-* I did my [master's thesis](/assets/files/thesis_ayush_singh.pdf) 
-  on scattering amplitudes and loop calculations in gauge theory under Dr.
-  Chethan N. Gowdigere.
-* My sixth semester project at NISER titled [_On Cyclic Quantum Heat
-  Engines_](/assets/files/on_cyclic_quantum_heat_engines.pdf) 
-  was done under Dr. Colin Benjamin.
-* In the summer of 2019 I did reading project on _Lie groups and Lie algebras_
-  under Dr. Sanjoy Pusti at IIT Bombay.
-* I headed the NISER Coding Club during March 2019--August 2021
-* Software projects for [NISER Software Development Group](https://sdgniser.github.io):
-  * [Timetable](https://github.com/sdgniser/timetable) --- a timetable generator
-  for people in NISER.
-  * [Spaghetti](https://github.com/sdgniser/spaghetti) --- a simple and
-  extensible platform for holding coding contests.
-  * [Lost and Found](https://github.com/sdgniser/lnf) --- a directory for things
-  lost and found in NISER.
-  * [Listings](https://github.com/sdgniser/listings) --- a place for selling
-  things you do not need.
+* I made a podcast! See [NiSERCast](https://nisercast.gitlab.io), and also [How
+  to Make a NiSERCast]().
+* From March 2019 to August 2021, I was the Benevolent Dictator of NISER
+  Coding Club.
+* I also contributed to a number of [NISER Software Development Group](https://sdgniser.github.io) projects:
+[Listings](https://github.com/sdgniser/listings),
+[Lost and Found](https://github.com/sdgniser/lnf),
+[Spaghetti](https://github.com/sdgniser/spaghetti),
+[Timetable](https://github.com/sdgniser/timetable).
 
 ## About this Website
 
