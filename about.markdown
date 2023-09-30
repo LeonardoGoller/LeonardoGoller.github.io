@@ -32,14 +32,20 @@ For academic details see [my CV](/assets/files/cv_ayush_singh.pdf).
 ## Fun Stuff
 
 * I made a podcast! See [NiSERCast](https://nisercast.gitlab.io), and also [How
-  to Make a NiSERCast]().
+  to Make a NiSERCast]({{ site.baseurl }}{% link _posts/2022-06-09-how-to-make-a-nisercast.markdown %}).
 * From March 2019 to August 2021, I was the Benevolent Dictator of NISER
   Coding Club.
-* I also contributed to a number of [NISER Software Development Group](https://sdgniser.github.io) projects:
+* I have also contributed to a number of [NISER Software Development Group](https://sdgniser.github.io) projects:
 [Listings](https://github.com/sdgniser/listings),
 [Lost and Found](https://github.com/sdgniser/lnf),
 [Spaghetti](https://github.com/sdgniser/spaghetti),
 [Timetable](https://github.com/sdgniser/timetable).
+
+<figure class="wide">
+  <video autoplay loop>
+    <source src="assets/life.webm">
+  </video>
+</figure>
 
 ## About this Website
 
