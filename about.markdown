@@ -12,8 +12,12 @@ at [Scuola Internazionale Superiore di Studi Avanzati
 
 ## Interests
 
-Algebraic Geometry
-
+1. Quantum Many Body Systems
+2. Renormalization Group Flow
+3. Topological Phases of Matter
+4. Anomalies
+5. Lattice Gauge Theories
+6. Constructive QFT
 
 
 ## About this Website
