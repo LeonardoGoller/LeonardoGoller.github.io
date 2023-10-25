@@ -10,6 +10,10 @@ My name is Leonardo Goller, and I am a PhD student in
 at [Scuola Internazionale Superiore di Studi Avanzati
 (SISSA)](https://www.sissa.it/). I work under the supervision of [Marcello Porta](https://sites.google.com/view/marcelloporta/home) on rigorous derivations of Effective Actions and Topological transport properties of Floquet Many Body systems.
 
+## Interests
+
+Algebraic Geometry
+
 
 
 ## About this Website
