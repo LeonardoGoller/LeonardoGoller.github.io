@@ -19,6 +19,17 @@ at [Scuola Internazionale Superiore di Studi Avanzati
 5. Lattice Gauge Theories
 6. Constructive QFT
 
+## Friends and Collaborators
+
+1. [Lorenzo Cecchi](https://people.sissa.it/~lcecchi/)
+2. [Ayush Singh](https://people.sissa.it/~aysingh/)
+4. [Thomas Nicosanti](https://thomasnicosanti.github.io/)
+5. [Davide Morgante](https://davidemorgante.github.io/)
+6. [Stefano Galanda](https://www.researchgate.net/profile/Stefano-Galanda)
+7. [Filippo Ferrari](https://people.epfl.ch/filippo.ferrari)
+
+
+
 
 ## About this Website
 
